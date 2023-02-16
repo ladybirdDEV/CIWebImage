@@ -38,7 +38,7 @@ s.description = 'This library provides a category for UIImageView with support f
   }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
-  s.vendored_frameworks = "CIWebImage/CIWebImageSDK.framework"
+  s.vendored_frameworks = "CIWebImage/CIWebImage.framework"
   
   s.dependency 'SDWebImage', '5.15.2'
   s.dependency 'SDWebImage/MapKit'
