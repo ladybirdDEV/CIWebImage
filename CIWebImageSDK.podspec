@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
   s.author           = { 'idbeny' => 'idbeny@163.com' }
   s.source           = { :git => 'https://github.com/ladybirdDEV/CIWebImage.git', :tag => s.version.to_s }
   
+  s.requires_arc = true
   s.ios.deployment_target = '13.0'
   s.pod_target_xcconfig = {
     'SUPPORTS_MACCATALYST' => 'YES',
