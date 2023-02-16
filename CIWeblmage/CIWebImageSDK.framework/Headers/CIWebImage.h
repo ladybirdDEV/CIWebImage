@@ -9,9 +9,9 @@
 #ifndef CIImageLoader_h
 #define CIImageLoader_h
 
-#import <CIWebImage/UIImageView+CIWebCache.h>
-#import <CIWebImage/UIButton+CIWebCache.h>
-#import <CIWebImage/MKAnnotationView+CIWebCache.h>
-#import <CIWebImage/CIWebImageManager.h>
+#import "UIImageView+CIWebCache.h"
+#import "UIButton+CIWebCache.h"
+#import "MKAnnotationView+CIWebCache.h"
+#import "CIWebImageManager.h"
 
 #endif /* CIWebImage_h */
