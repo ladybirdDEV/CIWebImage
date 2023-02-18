@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CIWebImageSDK'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'A short description of CIWebImageSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -26,6 +26,8 @@ TODO: Add long description of the pod here.
   s.author           = { 'idbeny' => 'idbeny@163.com' }
   s.source           = { :git => 'https://github.com/ladybirdDEV/CIWebImage.git', :tag => s.version.to_s }
   
+  s.static_framework = true
+
   s.ios.deployment_target = '13.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
@@ -33,7 +35,7 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = "CIWebImage/CIWebImageSDK.framework"
   
   s.dependency 'SDWebImage', '5.15.2'
-  # s.dependency 'SDWebImage/MapKit'
+  s.dependency 'SDWebImage/MapKit'
 
   s.frameworks = 'MapKit', 'UIKit', 'ImageIO'
 end
