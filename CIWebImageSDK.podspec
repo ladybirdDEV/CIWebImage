@@ -34,8 +34,8 @@ TODO: Add long description of the pod here.
   
   s.vendored_frameworks = "CIWebImage/CIWebImageSDK.framework"
   
-  s.dependency 'SDWebImage', '5.15.2'
-  s.dependency 'SDWebImage/MapKit'
+  s.dependency 'SDWebImage/Core', '5.15.2'
+  s.dependency 'SDWebImage/MapKit', '5.15.2'
 
   s.frameworks = 'MapKit', 'UIKit', 'ImageIO'
 end
