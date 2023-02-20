@@ -1,0 +1,6 @@
+framework module CIWebImage {
+  umbrella header "CIWebImage.h"
+
+  export *
+  module * { export * }
+}

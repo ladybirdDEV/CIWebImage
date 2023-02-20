@@ -20,10 +20,6 @@
 		<data>
 		z9pkui0HJGjZf0F5H5yuZczKsSE=
 		</data>
-		<key>Headers/CIWebImageSDK.h</key>
-		<data>
-		AR6u5TFORaWMCvC1eilTbAK61w4=
-		</data>
 		<key>Headers/MKAnnotationView+CIWebCache.h</key>
 		<data>
 		sHh5FMwmuGtGHd7qPtQY9e7KBXE=
@@ -38,11 +34,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4R7DsC/DUtCMv6bWLPjDTQEN1AU=
+		GCzWgom0cAf4szPsW+TjAWhwX3I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Z5t/H8o4DKh55x9N0F5MPOIGcDg=
+		FdE8Nxm6y9sJGelOpoQISKRBjC8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -91,17 +87,6 @@
 			qhoq6g/KkDCI/3/1mr/3IN3Pcd8mgTQgxJoRiqosCtg=
 			</data>
 		</dict>
-		<key>Headers/CIWebImageSDK.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AR6u5TFORaWMCvC1eilTbAK61w4=
-			</data>
-			<key>hash2</key>
-			<data>
-			hpSo4GlA8KRxkPhWscZ6NhHlq7TFTiAoeQ8I/YpvRY4=
-			</data>
-		</dict>
 		<key>Headers/MKAnnotationView+CIWebCache.h</key>
 		<dict>
 			<key>hash</key>
@@ -139,11 +124,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z5t/H8o4DKh55x9N0F5MPOIGcDg=
+			FdE8Nxm6y9sJGelOpoQISKRBjC8=
 			</data>
 			<key>hash2</key>
 			<data>
-			gJaXo7UhjMw01KU8Giu39k26aT6LlNmH8b8h17cgCDk=
+			LDuMFflTkN3jeweoBpxKDrxcDf39dHBLqI2LXuRjxyU=
 			</data>
 		</dict>
 	</dict>
