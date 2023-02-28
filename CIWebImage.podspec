@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CIWebImage'
-  s.version          = '0.1.10'
+  s.version          = '0.1.11'
   s.summary          = 'A short description of CIWebImage.'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   
   s.vendored_frameworks = "CIWebImage/CIWebImage.framework"
   
-  s.dependency 'SDWebImage/Core', '5.15.2'
+  s.dependency 'SDWebImage', '5.15.2'
   s.dependency 'SDWebImage/MapKit', '5.15.2'
 
   s.frameworks = 'MapKit', 'UIKit', 'ImageIO'
